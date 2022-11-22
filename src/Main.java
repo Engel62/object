@@ -8,5 +8,6 @@ public class Main {
         System.out.println(author1.getName() + " " +author1.getSurname() + " <<" + book1.getBookTitle() + ">>, " + book1.getYearOfPublication());
         book1.setYearOfPublication(2002);
         System.out.println(book1.getYearOfPublication());
+
     }
 }
